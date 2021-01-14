@@ -1,0 +1,36 @@
+{
+  "name": "nhcarrigan",
+  "version": "1.0.1",
+  "description": "It's me!",
+  "main": "./prod/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./prod/index.js"
+  },
+  "bin": {
+    "nhcarrigan": "./bin/nhcarrigan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhcarrigan/nhcarrigan-npm.git"
+  },
+  "keywords": [
+    "Nicholas",
+    "Carrigan",
+    "TypeScript",
+    "nhcarrigan"
+  ],
+  "author": "Nicholas Carrigan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nhcarrigan/nhcarrigan-npm/issues"
+  },
+  "homepage": "https://github.com/nhcarrigan/nhcarrigan-npm#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}

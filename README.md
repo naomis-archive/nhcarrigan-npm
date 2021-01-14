@@ -1,14 +1,13 @@
-# Project Name
+# nhcarrigan
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Project Description
+This is a basic `npm` package which includes a CLI tool. To use it, first install the package with `npm install -g nhcarrigan`. Then, call `nhcarrigan` in your terminal and see what happens! 💜
 
 ## Live Version
 
-This page is not yet deployed.
-<!--This page is currently deployed. [View the live website.]()-->
+This page is currently deployed. [View the live website.](https://npmjs.com/package/nhcarrigan)
 
 ## Feedback and Bugs
 
