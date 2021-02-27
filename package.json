@@ -1,6 +1,6 @@
 {
   "name": "nhcarrigan",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "It's me!",
   "main": "./prod/index.ts",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "node ./prod/index.js"
   },
   "bin": {
-    "nhcarrigan": "./bin/nhcarrigan"
+    "nhcarrigan": "bin/nhcarrigan"
   },
   "repository": {
     "type": "git",
