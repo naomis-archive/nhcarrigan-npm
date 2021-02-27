@@ -1,6 +1,6 @@
 {
   "name": "nhcarrigan",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "It's me!",
   "main": "./prod/index.ts",
   "scripts": {
@@ -48,6 +48,9 @@
     "chalk": "^4.1.0"
   },
   "lint-staged": {
-    "*.ts": ["eslint --fix", "prettier --write"]
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
