@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require("../prod/index.js");
+require("../prod/index.ts");
