@@ -8,3 +8,6 @@
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
 SECURITY.md
+.gitattributes
+tsconfig.json
+/prod/tests
