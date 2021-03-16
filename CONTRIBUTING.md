@@ -12,7 +12,7 @@ After you have made your changes, run the following commands to verify that the 
 
 All three of these steps will need to pass for any PR to be accepted.
 
-Finally, test your changes in the command line tool by building a test package with `npm pack` (note that you must build the files before this step!). This will generate a `.tgz` file, which you will need to install with `npm i -g <filename.tgz>` (replacing filename with the actual file name). Then run `gimme-colours` in the terminal to verify everything works.
+Finally, test your changes in the command line tool by building a test package with `npm pack` (note that you must build the files before this step!). This will generate a `.tgz` file, which you will need to install with `npm i -g <filename.tgz>` (replacing filename with the actual file name). Then run `nhcarrigan` in the terminal to verify everything works.
 
 ## Claiming an Issue
 
