@@ -6,6 +6,14 @@ Please ensure all pull requests and contributions comply with the [Developer Cer
 
 First, fork this repository to your own account. Then use `git clone <url>` to bring your forked repository down to your local machine (remember to get the URL for *your* repository, not the original). Optionally, use `git remote add upstream <url>` to add the original repository as the upstream (this is helpful for keeping your fork up-to-date).
 
+To prepare the codebase, install the dependencies with `npm ci`. Then make changes to the files.
+
+After you have made your changes, run the following commands to verify that the lint, build, and test pass. `npm run lint` - runs the linter on the codebase. `npm run build` - generates a production build for the application. `npm run test` - runs the unit tests.
+
+All three of these steps will need to pass for any PR to be accepted.
+
+Finally, test your changes in the command line tool by building a test package with `npm pack` (note that you must build the files before this step!). This will generate a `.tgz` file, which you will need to install with `npm i -g <filename.tgz>` (replacing filename with the actual file name). Then run `nhcarrigan` in the terminal to verify everything works.
+
 ## Claiming an Issue
 
 All of our issues are open to contributors! If you see an open issue you would like to work on, please comment on the issue so we may assign it to you. 
