@@ -2,6 +2,12 @@
 
 This is a basic `npm` package which includes a CLI tool. To use it, first install the package with `npm install -g nhcarrigan`. Then, call `nhcarrigan` in your terminal and see what happens! 💜
 
+![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/nhcarrigan-npm)
+![](https://img.shields.io/codeclimate/issues/nhcarrigan/nhcarrigan-npm)
+![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/nhcarrigan-npm)
+![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/nhcarrigan-npm)
+![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/nhcarrigan-npm)
+
 ## Live Version
 
 This page is currently deployed. [View the live website.](https://npmjs.com/package/nhcarrigan)
@@ -24,7 +30,7 @@ Copyright (C) 2020 Nicholas Carrigan
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
 The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
