@@ -2,7 +2,7 @@ import chalk from "chalk";
 
 export const text: { [key: string]: string } = {
   about:
-    "Hello! My name is Nicholas Carrigan. I am a TypeScript developer with an obsession for chat bots and CLI tools.",
+    "Hello! My name is Naomi Carrigan. I am a TypeScript developer with an obsession for chat bots and CLI tools.",
   packageIntro:
     "This is my npm package! Sorry to say, this package does not actually DO anything. It is just here for fun. However...",
   websiteIntro:
