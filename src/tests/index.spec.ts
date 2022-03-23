@@ -35,7 +35,7 @@ suite("Text information object", () => {
   test("should have correct about me", () => {
     assert.equal(
       text.about,
-      "Hello! My name is Nicholas Carrigan. I am a TypeScript developer with an obsession for chat bots and CLI tools."
+      "Hello! My name is Naomi Carrigan. I am a TypeScript developer with an obsession for chat bots and CLI tools."
     );
   });
 
