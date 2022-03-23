@@ -1,6 +1,6 @@
 {
   "name": "nhcarrigan",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "It's me!",
   "main": "./prod/index.ts",
   "scripts": {
