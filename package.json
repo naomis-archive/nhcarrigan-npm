@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nhcarrigan/nhcarrigan-npm.git"
+    "url": "git+https://github.com/naomi-lgbt/nhcarrigan-npm.git"
   },
   "keywords": [
     "Naomi",
@@ -25,12 +25,12 @@
   "author": "Naomi Carrigan",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/nhcarrigan-archive/nhcarrigan-npm/issues"
+    "url": "https://github.com/naomi-lgbt/nhcarrigan-npm/issues"
   },
-  "homepage": "https://github.com/nhcarrigan-archive/nhcarrigan-npm#readme",
+  "homepage": "https://github.com/naomi-lgbt/nhcarrigan-npm#readme",
   "engines": {
-    "node": "^15.10.0",
-    "npm": "^7.6.0"
+    "node": "^18.0.0",
+    "npm": "^9.0.0"
   },
   "devDependencies": {
     "@types/chai": "4.2.18",
