@@ -1,20 +1,20 @@
 {
   "name": "nhcarrigan",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "It's me!",
   "main": "./prod/index.ts",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint src",
+    "lint": "eslint src --max-warnings 0",
     "start": "node ./prod/index.js",
-    "test": "ts-mocha -u tdd ./src/tests/*.spec.ts"
+    "test": "echo 'no tests yet'"
   },
   "bin": {
     "nhcarrigan": "bin/nhcarrigan"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nhcarrigan/nhcarrigan-npm.git"
+    "url": "git+https://github.com/naomi-lgbt/nhcarrigan-npm.git"
   },
   "keywords": [
     "Naomi",
@@ -25,34 +25,21 @@
   "author": "Naomi Carrigan",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/nhcarrigan-archive/nhcarrigan-npm/issues"
+    "url": "https://github.com/naomi-lgbt/nhcarrigan-npm/issues"
   },
-  "homepage": "https://github.com/nhcarrigan-archive/nhcarrigan-npm#readme",
+  "homepage": "https://github.com/naomi-lgbt/nhcarrigan-npm#readme",
   "engines": {
-    "node": "^15.10.0",
-    "npm": "^7.6.0"
+    "node": "^18.0.0",
+    "npm": "^9.0.0"
   },
   "devDependencies": {
-    "@types/chai": "4.2.18",
-    "@types/mocha": "8.2.2",
-    "@types/node": "14.17.0",
-    "@types/test-console": "1.1.0",
-    "@typescript-eslint/eslint-plugin": "4.24.0",
-    "@typescript-eslint/parser": "4.24.0",
-    "chai": "4.3.4",
-    "eslint": "7.26.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "3.4.0",
-    "husky": "6.0.0",
-    "lint-staged": "11.0.0",
-    "mocha": "8.4.0",
-    "prettier": "2.3.0",
-    "test-console": "1.1.0",
-    "ts-mocha": "8.0.0",
-    "typescript": "4.2.4"
-  },
-  "dependencies": {
-    "chalk": "^4.1.0"
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
+    "eslint": "8.27.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.7.1",
+    "typescript": "4.9.3"
   },
   "lint-staged": {
     "*.ts": [

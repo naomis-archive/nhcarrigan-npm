@@ -2,12 +2,6 @@
 
 This is a basic `npm` package which includes a CLI tool. To use it, first install the package with `npm install -g nhcarrigan`. Then, call `nhcarrigan` in your terminal and see what happens! 💜
 
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/nhcarrigan-npm)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/nhcarrigan-npm)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/nhcarrigan-npm)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/nhcarrigan-npm)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/nhcarrigan-npm)
-
 ## Live Version
 
 This page is currently deployed. [View the live website.](https://npmjs.com/package/nhcarrigan)
