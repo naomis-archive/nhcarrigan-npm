@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/naomi-lgbt/nhcarrigan-npm#readme",
   "engines": {
-    "node": "18.16.1",
+    "node": "18.17.0",
     "npm": "9.8.0"
   },
   "devDependencies": {
